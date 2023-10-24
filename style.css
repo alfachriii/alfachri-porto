@@ -28,6 +28,15 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 600;
+}
+
 .red {
     background-color: red;
 }
@@ -141,12 +150,12 @@ h1, h2, p {
     align-items: center;
 }
 
-/* .text-con p, h1, h2 {
+.text-con p, h1, h2 {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-} */
+}
 
 .text-con p {
     font-weight: 400;
