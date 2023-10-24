@@ -33,8 +33,16 @@ h1 {
     font-size: 3rem;
 }
 
-h2 {
+h2, h3 {
     font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+h4, h5 {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 
 .red {
@@ -246,4 +254,67 @@ h1, h2, p {
 
 .box-edu i {
     font-size: 30px;
+}
+
+#experience {
+    /* background-color: red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.con-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box-experience {
+    width: 48%;
+    height: 330px;
+    border: 2px solid var(--primary-semi);
+    border-radius: 25px;
+    flex: 1;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box-experience h2 {
+    color: var(--primary-semi);
+    font-size: 28px;
+    padding: 1rem;
+}
+
+.box-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: right;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box-item {
+    width: 160px;
+    height: 60px;
+    /* border: 1px solid var(--primary-semi); */
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box-item img {
+    width: 32px;
+    height: 32px;
+}
+
+.box-item h4 {
+    font-size: 15px;
+    color: var(--primary-semi);
 }
