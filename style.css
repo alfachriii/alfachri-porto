@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap');
 
-root {
-    --primary-dark: rgb(17, 17, 17);
-    --primary-light: rgb(218, 220, 223);
+:root {
+    --primary-dark: #1c1c1c;
+    --primary-semi: #3a3a3a;
+    --primary-light: #e4e4df;
     --poppins-font: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -20,6 +28,16 @@ a {
     text-decoration: none;
 }
 
+.red {
+    background-color: red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     width: 928px;
     margin: auto;
@@ -32,7 +50,7 @@ a {
 
 .nav {
     height: 78px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,9 +63,14 @@ a {
     color: var(--primary-dark);
 }
 
+.logo {
+    font-weight: 528;
+}
+
 .nav-list {
     display: flex;
     column-gap: 2rem;
+    align-items: center;
 }
 
 .nav-item a {
@@ -55,6 +78,95 @@ a {
 
 }
 
-h2 {
+h1 h2 p {
     font-family: var(--poppins-font);
+    margin: 0;
+    padding: 0;
 }
+
+.nav i {
+    font-size: 30px;
+    color: var(--primary-dark);
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+#home {
+    display: flex;
+    /* background-color: rgb(182, 182, 182); */
+    width: 700px;
+    justify-content: space-between;
+    height: 80vh;
+    align-items: center;
+}
+
+.img img {
+    width: 300px;
+    height: 300px;
+}
+
+.btns {
+    display: flex;
+}
+
+.btn-cv {
+    font-family: 'Poppins';
+    color: var(--primary-dark);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 25px;
+    border-style: none;
+    border: 3px solid var(--primary-dark);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.btn-con {
+    font-family: 'Poppins';
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    padding: 10px 25px;
+    margin: 10px;
+    border-radius: 70px;
+    border-style: none;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.text {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-con p, h1, h2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.text-con p {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.text-con h1 {
+    font-weight: 550;
+    color: var(--primary-dark);
+}
+
+.text-con h2 {
+    font-weight: 600;
+    color: var(--primary-semi);
+}
+
+.text .icon a {
+    color: var(--primary-dark);
+    font-size: 1.8rem;
+    margin: 5px;
+    margin-top: 0;
+}
+
