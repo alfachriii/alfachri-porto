@@ -1,0 +1,62 @@
+@media (max-width: 878px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 778px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .container {
+        width: 100vw;
+    }
+    .nav a {
+        margin-left: 10px;
+    }
+    #home {
+        flex-direction: column;
+        height: 100vh;
+        padding: 20px;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    #home .text {
+        margin: 0;
+    }
+    .text .text-con {
+        gap: 0;
+    }
+    .text .icon {
+        margin-top: 8px;
+    }
+
+    #about {
+        margin-top: 5rem;
+        font-size: 14px;
+        padding: 78px;
+    }
+    .con-about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .con-about .img img {
+        margin: 0;
+        margin-top: 20px;
+        height: 22em;
+    }
+    .con-box {
+        justify-content: center;
+        margin-top: 28px;
+        text-align: justify;
+    }
+    #experience {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    #project {
+        margin-top: 5rem;
+    }
+}

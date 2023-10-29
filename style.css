@@ -112,15 +112,17 @@ h1, h2, p {
 #home {
     display: flex;
     /* background-color: rgb(182, 182, 182); */
-    width: 700px;
+    flex-direction: row;
+    width: 29em;
+    font-size: 24px;
     justify-content: space-between;
     height: 90vh;
     align-items: center;
 }
 
 .img img {
-    width: 300px;
-    height: 300px;
+    width: 12.5em;
+    height: 12.5em;
 }
 
 .btns {
@@ -137,6 +139,7 @@ h1, h2, p {
     border: 2px solid var(--primary-dark);
     font-weight: 600;
     margin-bottom: 0;
+    font-size: 0.5em;
 }
 
 .btn-con {
@@ -149,6 +152,7 @@ h1, h2, p {
     border-style: none;
     font-weight: 600;
     margin-bottom: 0;
+    font-size: 0.5em;
 }
 
 .text {
@@ -168,22 +172,24 @@ h1, h2, p {
 
 .text-con p {
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.6em;
 }
 
 .text-con h1 {
     font-weight: 550;
     color: var(--primary-dark);
+    font-size: 2em;
 }
 
 .text-con h2 {
     font-weight: 600;
     color: var(--primary-semi);
+    font-size: 1em;
 }
 
 .text .icon a {
     color: var(--primary-dark);
-    font-size: 1.8rem;
+    font-size: 1.2em;
     margin: 5px;
     margin-top: 0;
 }
@@ -194,10 +200,12 @@ h1, h2, p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 16px;
 }
 
 #about p {
     color: var(--primary-semi);
+    font-size: 1em;
 }
 
 .con-about {
@@ -207,27 +215,28 @@ h1, h2, p {
 }
 
 .con-about .img img {
-    width: 340px;
-    height: 400px;
+    width: 21.25em;
+    height: 24em;
     border-radius: 25px;
     margin-right: 50px;   
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .con-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .con-box p, center {
     color: var(--primary-semi);
+    font-size: 1em;
 }
 
 .box-expe {
-    width: 250px;
-    height: 160px;
+    width: 15.6em;
+    height: 10em;
     border: 2px solid var(--primary-semi);
     border-radius: 25px;
     margin: 0;
@@ -238,12 +247,12 @@ h1, h2, p {
 }
 
 .box-expe i {
-    font-size: 30px;
+    font-size: 1.85em;
 }
 
 .box-edu {
-    width: 250px;
-    height: 160px;
+    width: 15.6em;
+    height: 10em;
     border: 2px solid var(--primary-semi);
     border-radius: 25px;
     margin: 0;
@@ -254,7 +263,7 @@ h1, h2, p {
 }
 
 .box-edu i {
-    font-size: 30px;
+    font-size: 1.85em;
 }
 
 #experience {
@@ -323,6 +332,10 @@ h1, h2, p {
 /* project section */
 #projects {
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -366,3 +379,6 @@ h1, h2, p {
     width: 100%;
     height: 100vh;
 }
+
+
+
