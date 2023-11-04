@@ -36,7 +36,10 @@
         border-radius: 25px;
         display: none;
     }
-    
+
+    .mode {
+    }
+
     #hamburger {
         display: flex;
     }
@@ -166,9 +169,6 @@
 }
 
 @media screen and (max-width: 490px) {
-    #experience {
-        /* height: 90rem; */
-    }
     .box-experience {
         width: 20em;
     }

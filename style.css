@@ -12,6 +12,7 @@ html {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    color: var(--primary-dark);
 }
 
 body {
@@ -41,6 +42,7 @@ a:hover {
 h1 {
     font-weight: 600;
     font-size: 3rem;
+    color: var(--primary-dark);
 }
 
 h2, h3 {
@@ -115,7 +117,6 @@ h4, h5 {
     display: flex;
     color: var(--primary-dark);
     flex-direction: row;
-    gap: 15px;
     justify-content: center;
 }
 
@@ -123,7 +124,7 @@ h4, h5 {
     display: flex;
     column-gap: 2rem;
     align-items: center;
-
+    margin-right: 15px;
 }
 
 .nav-item a {
@@ -160,6 +161,7 @@ h1, h2, p {
 }
 
 .btn-cv {
+    background-color: var(--primary-light);
     font-family: 'Poppins';
     color: var(--primary-dark);
     padding: 10px 20px;
@@ -196,6 +198,7 @@ h1, h2, p {
     font-weight: 600;
     margin-bottom: 0;
     font-size: 0.5em;
+    color: var(--primary-light);
 }
 
 .text {
@@ -447,7 +450,7 @@ h1, h2, p {
 }
 
 .box-contact a {
-    color: black;
+    color: var(--primary-dark);
     font-size: 1.5em;
 }
 
