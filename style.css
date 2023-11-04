@@ -31,6 +31,13 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--primary-semi);
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    text-decoration-color: var(--primary-semi);
+}
+
 h1 {
     font-weight: 600;
     font-size: 3rem;
@@ -149,6 +156,19 @@ h1, h2, p {
     font-weight: 600;
     margin-bottom: 0;
     font-size: 0.5em;
+}
+
+.btn-cv:hover {
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    transition-duration: .1s;
+}
+
+.btn-con:hover {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    transition-duration: .1s;
+    border: 2px solid var(--primary-dark);
 }
 
 .btn-con {
@@ -350,9 +370,9 @@ h1, h2, p {
 
 }
 
-#projects .container {
+.experience-details-container {
     display: flex;
-    height: 100vh;
+    height: 100%;
     font-size: 24px;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -390,5 +410,48 @@ h1, h2, p {
     height: 100vh;
 }
 
+#contact {
+    height: 20rem;
+    padding-top: 5rem;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .box-contact {
+    border: 2px solid var(--primary-semi);
+    color: var(--primary-dark);
+    width: fit-content;
+    padding: 10px 60px;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box-contact a {
+    color: black;
+    font-size: 1.5em;
+}
+
+
+
+.box-contact span {
+    font-size: 3em;
+    margin-right: 20px;
+    margin-bottom: 17px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-dark);
+    margin-top: .5rem;
+    font-size: 16px;
+}
 
 

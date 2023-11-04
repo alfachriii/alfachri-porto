@@ -4,7 +4,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: fit-content;
+        margin: 0;
     }
+    
 
     h1 {
         font-size: 2.5rem;
@@ -67,6 +70,10 @@
     .box-experience h2 {
         padding: 0;
     }
+    #projects {
+        height: 127rem;
+    }
+
 }
 
 
@@ -82,7 +89,10 @@
         margin-bottom: 20rem;
     }
     #projects {
-        height: 100vh;
+        height: 111rem;
+    }
+    #contact {
+        font-size: 13px;
     }
 }
 
@@ -107,19 +117,33 @@
 @media screen and (max-width: 515px) {
     #about {
         height: fit-content;
-        font-size: 12px;
+        font-size: 13.5px;
     }
     #experience {
         height: fit-content;
         margin: 0;
     }
     #projects {
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
+        height: 90rem;
     }
-    
+    #contact {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    #contact .box-contact {
+        padding: 10px 30px;
+    }
+    footer {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 490px) {
+    #experience {
+        /* height: 90rem; */
+    }
     .box-experience {
         width: 20em;
     }
@@ -128,6 +152,12 @@
     }
     .box-project {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    #about {
+        font-size: 10px;
     }
 }
 
